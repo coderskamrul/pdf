@@ -1,0 +1,26 @@
+{
+  "name": "code_serverside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.418.0",
+    "@aws-sdk/lib-storage": "^3.418.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "mongodb": "^6.0.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.1",
+    "nodemon": "^3.0.1",
+    "stripe": "^13.4.0"
+  }
+}
